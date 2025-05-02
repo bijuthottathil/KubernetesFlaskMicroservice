@@ -42,7 +42,3 @@ KubernetesFlaskMicroservice % cd venvmicroservice
 
 
 
-
-
-
-
