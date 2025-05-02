@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-weather
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-weather
+  template:
+    metadata:
+      labels:
+        app: flask-weather
+    spec:
+      containers:
+      - name: flask-weather
+        image: flask-weather-api:1.0 
+        ports:
+        - containerPort: 5000
+        env:
+        - name: OPENWEATHER_API_KEY
+          value: "1763f19f0a0e765838469a47c6b27354"
