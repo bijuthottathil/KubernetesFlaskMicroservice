@@ -3,6 +3,8 @@ Part1) Deploying micro service to MiniKube
 ![image](https://github.com/user-attachments/assets/4b71deb4-3d2e-4e36-8e21-87f341ec8349)
 
 Part 2) eploying micro service to EKS (AWS)
+![image](https://github.com/user-attachments/assets/92c50437-46bc-4be9-9daa-c5b05d766532)
+
 
 1. Setup virtual environment in Mac
 python3 -m venv venvmicroservice
