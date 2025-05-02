@@ -1,6 +1,8 @@
 # Create Python based Microservice to read weather from a city , deploy code in kubernetes
-
+Part1) Deploying micro service to MiniKube
 ![image](https://github.com/user-attachments/assets/4b71deb4-3d2e-4e36-8e21-87f341ec8349)
+
+Part 2) eploying micro service to EKS (AWS)
 
 1. Setup virtual environment in Mac
 python3 -m venv venvmicroservice
