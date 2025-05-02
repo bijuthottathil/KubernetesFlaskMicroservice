@@ -1,4 +1,4 @@
-# Create Python based Microservice to read weather in a city , deploy in kubernetes
+# Create Python based Microservice to read weather from a city , deploy code in kubernetes
 
 
 1. Setup virtual environment in Mac
