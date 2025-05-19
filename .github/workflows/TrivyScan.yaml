@@ -23,4 +23,5 @@ jobs:
 
       - name: Run Trivy scan on Docker Hub image
         run: |
-          trivy image bijuthottathil/flask-weather-api:1.0 
+          trivy image --scanners  bijuthottathil/flask-weather-api:1.0 
+         
