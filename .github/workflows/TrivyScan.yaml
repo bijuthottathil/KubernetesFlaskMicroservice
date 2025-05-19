@@ -23,6 +23,6 @@ jobs:
 
       - name: Run Trivy scan on Docker Hub image
         run: |
-          trivy image --scanners --severity HIGH,CRITICAL --exit-code 1 bijuthottathil/flask-weather-api:1.0
+          trivy image --scanners --severity HIGH,CRITICAL --exit-code 1 bijuthottathil/flask-weather-api:latest
        
          
