@@ -1,8 +1,7 @@
 name: Trivy Scan Docker Hub Image
 
 on:
-  push:
-    branches: [ main ]
+
   workflow_dispatch:
 
 jobs:
