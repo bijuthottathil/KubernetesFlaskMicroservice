@@ -1,4 +1,4 @@
-name: Trivy Scan Docker Hub Image
+name: Trivy Tos Scan My Repo
 
 
 on:
