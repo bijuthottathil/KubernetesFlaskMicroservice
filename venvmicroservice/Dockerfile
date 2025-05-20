@@ -1,12 +1,4 @@
-FROM python:3.9-slim
+# Dockerfile.vulnerable
+FROM alpine:3.7  # Old version with known CVEs
 
-WORKDIR /app
-
-COPY requirement.txt .
-RUN pip install -r requirement.txt
-
-COPY . .
-
-EXPOSE 5000
-
-CMD ["python", "app.py"]
+RUN apk add --no-cache openssl
